@@ -1,0 +1,98 @@
+body{
+    width: 1920px;
+    background: black;
+    /*overflow: hidden;*/
+}
+
+.space{
+    margin: auto;
+    height: 1000px;
+    width: 1600px;
+    background: url("../image/space.png") ;
+}
+
+
+.planet{
+    height: 900px;
+    width: 800px;
+    margin-top: 100px;
+}
+
+.rocket{
+    width: 250px;
+    height: 280px;
+    transform: rotate(35deg);
+    margin-bottom: 480px;
+    margin-left: -370px;
+}
+
+.control-panel{
+    width: 520px;
+    height: 300px;
+    background: repeating-linear-gradient(45deg, black 10%, darkgoldenrod 15%);
+    margin-top: -600px;
+    margin-left: 1000px;
+    padding-top: 10px;
+}
+
+.control-panel__inner{
+    margin-left: 10px;
+    width: 500px;
+    height: 290px;
+    background: black;
+}
+
+.password{
+    height: 20px;
+    margin-left: 130px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 3px solid darkgoldenrod;
+    color: darkgoldenrod;
+}
+
+.auth{
+    height: 25px;
+    width: 60px;
+    background: darkgoldenrod;
+    border-radius: 5px;
+}
+
+.check-buttons{
+    display: flex;
+    margin-top: 20px;
+    margin-left: -25px;
+}
+
+.check-buttons input {
+    margin-left: 67px;
+}
+
+.levers {
+    width: 250px;
+    height: 200px;
+    display: flex;
+    grid-template-columns: max-content;
+    justify-content: center;
+    margin-left: 130px;
+    margin-top: 40px;
+}
+
+.levers input{
+    width: 100px;
+    height: 80px;
+    transform: rotate(270deg);
+}
+
+.launch{
+    display: flex;
+    margin-top: -90px;
+    margin-left: 225px;
+    height: 50px;
+    width: 60px;
+    justify-content: center;
+    background: darkred;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid white;
+}
